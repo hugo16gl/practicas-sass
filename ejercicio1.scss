@@ -1,0 +1,32 @@
+//--------------
+// 1) Variables
+//--------------
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$default-padding: 6px 12px;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+//------------------------
+// 2) Nesting (Anidación)
+//------------------------
+
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li { display: inline-block; }
+  
+    a {
+      display: block;
+      padding: $default-padding;
+      text-decoration: none;
+    }
+  }

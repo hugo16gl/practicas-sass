@@ -1,0 +1,11 @@
+//-------------------------
+// 4)  Modules
+//-------------------------
+
+@import 'partials/partial1';
+@import 'partials/partial2';
+
+.inverse {
+  background-color: $primary-color;
+  color: white;
+}

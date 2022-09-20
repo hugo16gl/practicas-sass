@@ -1,0 +1,10 @@
+//-------------
+// 3) Partials
+//-------------
+
+$default-font-size: 18px;
+
+div {
+    font-size: $default-font-size;
+    color: $primary-color;
+}
